@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.devsuperior.dspesquisa.entities.Record;
 
 @Repository
-public interface RecordoRepository extends JpaRepository<Record, Long> {
+public interface RecordRepository extends JpaRepository<Record, Long> {
 
 }
