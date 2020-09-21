@@ -2,10 +2,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './styles.css'
 import { RecordsResponse } from './types';
-import { formatDate } from './helpers'
 import Pagination from './Pagination'
 import Filters from '../../components/Filters'
-import { Link } from 'react-router-dom';
 
 const BASE_URL = 'https://sds1-prbasa.herokuapp.com';
 
