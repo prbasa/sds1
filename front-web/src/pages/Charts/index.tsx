@@ -4,7 +4,7 @@ import './styles.css'
 import { barOptions, pieOptions } from './chart-options';
 import Chart from 'react-apexcharts';
 import axios from 'axios';
-import { buildBarSeries, getPlatformChartData, getGenderChartData } from './helpers';
+import { buildBarSeries, getPlatformChartData, getGenderChartData, } from './helpers';
 
 type PieChartData = {
     labels: string[];
@@ -12,7 +12,7 @@ type PieChartData = {
 
 }
 
-type BarCharData = {
+type BarChartData = {
     x: string;
     y: number;
 }
