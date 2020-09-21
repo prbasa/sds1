@@ -44,13 +44,13 @@ const Records = () => {
                 <tbody>
                     {recordsResponse?.content.map(record => (
                         <tr key={record.id}>
-                        <td>{formatDate(record.moment)}</td>
-                        <td>{record.name}</td>
-                        <td>{record.age}</td>
-                        <td className="text-secondary">{record.gamePlatform}</td>
-                        <td>{record.genreName}</td>
-                        <td className="text-primary">{record.gameTitle}</td>
-                    </tr>
+                            <td>{record.moment}</td>
+                            <td>{record.name}</td>
+                            <td>{record.age}</td>
+                            <td className="text-secondary">{record.gamePlatform}</td>
+                            <td>{record.genreName}</td>
+                            <td className="text-primary">{record.gameTitle}</td>
+                        </tr>
 
 
                     ))}
